@@ -1,0 +1,30 @@
+{
+  "name": "redux-store",
+  "version": "1.0.0",
+  "description": "Write your own redux store from 0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amosISA/redux-store.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Amos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amosISA/redux-store/issues"
+  },
+  "homepage": "https://github.com/amosISA/redux-store#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7"
+  }
+}
