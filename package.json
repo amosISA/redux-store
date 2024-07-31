@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
