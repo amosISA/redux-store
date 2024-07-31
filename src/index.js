@@ -1,7 +1,11 @@
 import './styles.css';
+import Logo from './images/codigotipado_logo.png';
 
 const taskInput = document.getElementById('taskInput');
 const taskList = document.getElementById('taskList');
+const logoImg = document.getElementById('logoImg');
+
+logoImg.src = Logo;
 
 function addTask() {
     const taskText = taskInput.value.trim();
