@@ -4,8 +4,8 @@
   "description": "Write your own redux store from 0",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "start": "ts-node src/server/index.ts",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,16 @@
   },
   "homepage": "https://github.com/amosISA/redux-store#readme",
   "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.2.7"
+    "@reduxjs/toolkit": "^2.2.7",
+    "express": "^4.19.2"
   }
 }

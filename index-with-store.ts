@@ -1,4 +1,4 @@
-import { configureStore, removeListener } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import { ADD_TODO_ACTION, reducer } from ".";
 
 const store = configureStore({ reducer });
