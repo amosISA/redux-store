@@ -4,7 +4,7 @@
 
 @layer components {
   .custom-checkbox {
-    @apply appearance-none w-5 h-5 border-2 border-purple-600 rounded-md checked:bg-purple-600 checked:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2;
+    @apply w-5 h-5 border-2 border-purple-600 rounded-md appearance-none checked:bg-purple-600 checked:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2;
   }
   
   .custom-checkbox:checked {
@@ -16,15 +16,15 @@
 }
 
 .completed {
-    @apply line-through text-gray-400;
+    @apply text-gray-400 line-through;
 }
 
 .task-item {
-    @apply flex items-center p-3 bg-[#9333ea26] rounded-lg shadow-sm transition duration-300 hover:shadow-md;
+    @apply flex items-center justify-between p-3 bg-[#9333ea26] rounded-lg shadow-sm transition duration-300 hover:shadow-md;
 }
 
 .task-checkbox {
-    @apply custom-checkbox mr-3;
+    @apply mr-3 custom-checkbox;
 }
 
 .task-text {
@@ -32,7 +32,7 @@
 }
 
 .task-delete {
-  @apply ml-3 focus:outline-none p-1 rounded-full hover:bg-red-100 transition duration-300;
+  @apply p-1 ml-3 transition duration-300 rounded-full focus:outline-none hover:bg-red-100;
 }
 
 .task-delete svg {
